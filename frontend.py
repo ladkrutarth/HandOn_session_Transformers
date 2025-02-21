@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
 import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Backend API URL
 BACKEND_URL = "http://127.0.0.1:5001"
