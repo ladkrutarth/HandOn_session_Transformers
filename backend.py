@@ -11,7 +11,7 @@ qa_model = transformers.AutoModelForQuestionAnswering.from_pretrained(qa_model_n
 
 # Load BERT model for attention visualization
 attention_model_name = "bert-base-uncased"
-attention_tokenizer = transformers.BertTokenizer.from_pretrained(attention_model_name)47
+attention_tokenizer = transformers.BertTokenizer.from_pretrained(attention_model_name)  # Removed '47'
 attention_model = transformers.BertModel.from_pretrained(attention_model_name, output_attentions=True)
 
 @app.route("/qa", methods=["POST"])
