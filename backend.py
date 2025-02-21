@@ -1,3 +1,4 @@
+import transformers
 from flask import Flask, request, jsonify
 import transformers
 import torch
